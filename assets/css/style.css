@@ -6,11 +6,16 @@
 }
 .FullPage{
     height:100%;
-    width: 100%;
-    padding: 80px 400px;
-    /* display: flex; */
+    width:100%;
+    padding:80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .centerBox{
+   
     height: 490px;
     width: 650px;
     border: 2px solid black;
@@ -19,10 +24,105 @@
 }
 .title{
 text-align: center;
+padding: 10px;
 }
-.SearchBAr
+.searchContainer{
+    display: flex;
+    justify-content:center ;
+    padding:15px;
+    
+
+}
+.Searchbar
 {
-    width: 500px;
-    height: 30px;
-  
+    /* border-radius:10px; */
+    width: 400px;
+    height: 35px;
+    border: 2px solid ;
+    border-right: none;
 }
+.iconDiv{
+/* background-color:#AD88C6; */
+border-left:0px;
+}
+.iconDiv:hover{
+    background-color:#AD88C6;
+
+    border: 1px solid ;
+    }
+    
+.icon{
+    /* padding: 0; */
+    cursor: pointer; 
+    border: none;   
+    /* background-color:#EE4266;    border: 2px solid ; */
+    color:#E5E1DA;
+    height: 30px;
+    /* display: flex; */
+    font-size: 27px;
+    /* align-items: center; */
+}
+ 
+/* .icon:hover{
+    color: #E5E1DA;
+    background-color: #EE4266;
+} */
+
+.tasklist{
+    
+    width:100%;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+
+}
+.task{
+    width:438px ;
+    height: 35px;
+    background-color:#F0F0F0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid ;
+    position: relative;
+}
+.checkbox{
+    padding:0px 15px;
+}
+.deletebutton{
+    padding-top: 2.5px;
+    /* background-color: #FF8080; */
+    display: flex;
+    /* justify-content: end; */
+    align-items:center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+}
+
+
+.deletebutton:hover{
+    background-color: #FF8080;
+    
+}
+.delicon
+{
+    cursor: pointer; 
+    border: none;   
+    /* background-color:#EE4266;    border: 2px solid ; */
+    /*  */
+    color: #A8A196;
+    height: 30px;
+    /* display: flex; */
+    font-size: 27px;
+}
+.delicon:hover{
+    color: #E5E1DA;
+    
+}
+.divforboth
+{
+    display: flex;
+}
+
